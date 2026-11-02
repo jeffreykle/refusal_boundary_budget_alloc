@@ -1,11 +1,11 @@
-# robotctrl_jd237
+# refusal_boundary_budget_alloc
 
 **按权重把机器人运动控制工程师·拒答边界与过度拒答的额度分配到各项。**
 
-`robotctrl_jd237` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
+`refusal_boundary_budget_alloc` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`robotctrl_jd237.py` 拷走就能用
+- 单文件，`refusal_boundary_budget_alloc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install jeffreykle-robotctrl_jd237
+pip install jeffreykle-refusal_boundary_budget_alloc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-robotctrl_jd237 --help
+refusal_boundary_budget_alloc --help
 ```
 
-也可以不用安装，直接把 `robotctrl_jd237.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `refusal_boundary_budget_alloc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ robotctrl_jd237 --help
 ## 用法
 
 ```bash
-python robotctrl_jd237.py --file input.txt
-python robotctrl_jd237.py --text "示例内容"
-python robotctrl_jd237.py --file input.txt --json
+python refusal_boundary_budget_alloc.py --file input.txt
+python refusal_boundary_budget_alloc.py --text "示例内容"
+python refusal_boundary_budget_alloc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python robotctrl_jd237.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_robotctrl_jd237.py
+python test_refusal_boundary_budget_alloc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_robotctrl_jd237.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/jeffreykle/robotctrl_jd237>
+- GitHub 仓库：<https://github.com/jeffreykle/refusal_boundary_budget_alloc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_robotctrl_jd237.py
 jeffreykle 做机器人运动控制工程师·拒答边界与过度拒答相关的问题，方向对标生数科技的专家机器人运动控制工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://jeffreykle.github.io>
-- 仓库：<https://github.com/jeffreykle/robotctrl_jd237>
+- 仓库：<https://github.com/jeffreykle/refusal_boundary_budget_alloc>
 
 ## 许可
 
